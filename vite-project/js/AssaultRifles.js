@@ -330,4 +330,6 @@ let assaultRiflesArray = [
       magazineSize: 20
     },
   ];
-  
+
+
+export {assaultRiflesArray}

@@ -1,8 +1,14 @@
 import "../css/style.css";
+import { assaultRiflesArray } from "../js/AssaultRifles.js";
 
-document.querySelector('#app').innerHTML = `
-  <h1> Hello VITE!!!</h1>
-  <a href="https://vitejs.dev" target="_blank"> Documentation</a>
-`;
+const
+
+const printAssaultRifles = 
+assaultRiflesArray.forEach(printAssaultRifles => {
+  console.log(printAssaultRifles)
+});
+function displayAssaultRifles (printAssaultRifles){
+  const boxAR = 
+}
 
 
