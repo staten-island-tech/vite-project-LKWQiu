@@ -12,6 +12,7 @@ assaultRiflesArray.forEach(printAssaultRifles => {
   console.log(printAssaultRifles)
 });
 function arSetdisplay(){
+  console.log("Button clicked")
   DomSelectors.Content.innerHTML ="";
   assaultRiflesArray.forEach((rifle) => {
     const arSet =` 
