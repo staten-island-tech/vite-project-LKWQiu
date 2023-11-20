@@ -1,5 +1,5 @@
 import "../css/style.css";
-import { assaultRiflesArray } from "../js/AssaultRifles.js";
+import { GunsArray } from "../js/AssaultRifles.js";
 
 const DomSelectors = {
   Content: document.getElementById("Content"),
@@ -7,14 +7,12 @@ const DomSelectors = {
 }
 
 const printAssaultRifles = 
-console.log("Button clicked!");
-assaultRiflesArray.forEach(printAssaultRifles => {
+GunsArray.forEach(printAssaultRifles => {
   console.log(printAssaultRifles)
 });
-function arSetdisplay(){
-  console.log("Button clicked")
-  DomSelectors.Content.innerHTML ="";
-  assaultRiflesArray.forEach((rifle) => {
+console.log(printAssaultRifles)
+
+function arSetdisplay(rifle){
     const arSet =` 
     <div class="ARset">
       <h3>${rifle.name}</h3>
@@ -28,7 +26,10 @@ function arSetdisplay(){
     </div>
   `;
   DomSelectors.Content.insertAdjacentHTML("beforeend", arSet)
-  });
-}
-const AssaultRiflesClick = getElementById("AssaultRiflesButton")
-AssaultRiflesClick.addEventListener("click", arSetdisplay);
+  };
+
+  GunsArray.forEach((rifle) => arSetdisplay(rifle));
+
+  export{DomSelectors, arSetdisplay}
+
+

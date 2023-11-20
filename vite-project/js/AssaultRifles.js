@@ -1,4 +1,4 @@
-let assaultRiflesArray = [
+let GunsArray = [
     {
       name: "M16A3",
       rankRequirement: 0,
@@ -305,7 +305,7 @@ let assaultRiflesArray = [
       damage: 32,
       range: 75,
       weaponType: "Carbine",
-      weaponClass: "Assault Rifle",
+      weaponClass: "Carbine",
       firingModes: ["Auto"],
       magazineSize: 30
     },
@@ -325,11 +325,11 @@ let assaultRiflesArray = [
       damage: 33,
       range: 60,
       weaponType: "Carbine",
-      weaponClass: "Assault Rifle",
+      weaponClass: "Carbine",
       firingModes: ["Auto"],
       magazineSize: 20
     },
   ];
 
 
-export {assaultRiflesArray}
+export {GunsArray}
