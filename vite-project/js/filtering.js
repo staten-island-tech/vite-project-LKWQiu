@@ -5,12 +5,16 @@ DomSelectors ={
     CButton: document.getElementById("CarbinesButton"),
 }
 
-ARButton.addEventListener("click", () =>{
+DomSelectors.ARButton.addEventListener("click", () =>{
+    console.log("the function broken")
     const ARs = GunsArray.filter((rifle) =>
-    gun.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("Assault Rifle")
     );
     console.log(ARs)
     DomSelectors.Content.textContent= ""
     const ARmap = ARs.map((rifle) => arSetdisplay(rifle));
-    DomSelectors.Content.insertAdjacentHTML("beforeend", ARmap.join(""));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        ARmap.join("")
+    );
 });

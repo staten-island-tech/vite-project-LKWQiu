@@ -25,11 +25,11 @@ function arSetdisplay(rifle){
       <p>Magazine Size: ${rifle.magazineSize}</p>
     </div>
   `;
-  DomSelectors.Content.insertAdjacentHTML("beforeend", arSet)
+  DomSelectors.Content.insertAdjacentHTML("beforeend", arSet);
   };
 
   GunsArray.forEach((rifle) => arSetdisplay(rifle));
 
-  export{DomSelectors, arSetdisplay}
+  export{DomSelectors, arSetdisplay};
 
 
