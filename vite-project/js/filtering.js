@@ -4,7 +4,13 @@ const DomSelectors ={
     Content: document.getElementById("Content"),
     weaponClassBox: document.getElementById("weapnClassBox"),
     ARButton: document.getElementById("AssaultRiflesButton"),
+    PDWButton: document.getElementById("PDWsButton"),
+    LMGButton: document. getElementById("LMGsButton"),
+    SRButton: document.getElementById("SniperRiflesButton"),
     CButton: document.getElementById("CarbinesButton"),
+    DMRButton: document.getElementById("DMRsButton"),
+    BRButton: document.getElementById("BattleRiflesButton"),
+    SButton: document.getElementById("ShotgunsButton"),
 }
 
 DomSelectors.ARButton.addEventListener("click", () =>{
@@ -18,5 +24,96 @@ DomSelectors.ARButton.addEventListener("click", () =>{
     DomSelectors.Content.insertAdjacentHTML(
         "beforeend",
         ARmap.join("")
+    );
+});
+DomSelectors.PDWButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const PDWs = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("PDW")
+    );
+    console.log(PDWs)
+    DomSelectors.Content.textContent= ""
+    const PDWmap = PDWs.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        PDWmap.join("")
+    );
+});
+DomSelectors.LMGButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const LMGs = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("Assault Rifle")
+    );
+    console.log(LMGs)
+    DomSelectors.Content.textContent= ""
+    const LMGmap = LMGs.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        LMGmap.join("")
+    );
+});
+DomSelectors.SRButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const SRs = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("Assault Rifle")
+    );
+    console.log(SRs)
+    DomSelectors.Content.textContent= ""
+    const SRmap = SRs.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        SRmap.join("")
+    );
+});
+DomSelectors.CButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const Cs = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("Assault Rifle")
+    );
+    console.log(Cs)
+    DomSelectors.Content.textContent= ""
+    const Cmap = Cs.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        Cmap.join("")
+    );
+});
+DomSelectors.DMRButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const DMRs = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("Assault Rifle")
+    );
+    console.log(DMRs)
+    DomSelectors.Content.textContent= ""
+    const DMRmap = DMRs.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        DMRmap.join("")
+    );
+});
+DomSelectors.BRButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const BRs = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("Assault Rifle")
+    );
+    console.log(BRs)
+    DomSelectors.Content.textContent= ""
+    const BRmap = BRs.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        BRmap.join("")
+    );
+});
+DomSelectors.SButton.addEventListener("click", () =>{
+    console.log("the function broken")
+    const Ss = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes("Assault Rifle")
+    );
+    console.log(Ss)
+    DomSelectors.Content.textContent= ""
+    const Smap = Ss.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        Smap.join("")
     );
 });
