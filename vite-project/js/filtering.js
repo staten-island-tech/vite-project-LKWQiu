@@ -1,6 +1,8 @@
-import { GunsArray } from "./AssaultRifles.js";
-import { DomSelectors, arSetdisplay } from "./main.js";
-DomSelectors ={
+import { GunsArray} from "./AssaultRifles.js";
+import {arSetdisplay} from "./main.js";
+const DomSelectors ={
+    Content: document.getElementById("Content"),
+    weaponClassBox: document.getElementById("weapnClassBox"),
     ARButton: document.getElementById("AssaultRiflesButton"),
     CButton: document.getElementById("CarbinesButton"),
 }
