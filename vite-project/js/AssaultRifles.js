@@ -4,7 +4,7 @@ let GunsArray = [
       rankRequirement: 0,
       damage: 33,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -14,7 +14,7 @@ let GunsArray = [
       rankRequirement: 20,
       damage: 45,
       range: 60,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -24,7 +24,7 @@ let GunsArray = [
       rankRequirement: 25,
       damage: 32,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -34,7 +34,7 @@ let GunsArray = [
       rankRequirement: 15,
       damage: 32,
       range: 80,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -44,7 +44,7 @@ let GunsArray = [
       rankRequirement: 30,
       damage: 33,
       range: 65,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Burst", "Auto"],
       magazineSize: 25
@@ -54,7 +54,7 @@ let GunsArray = [
       rankRequirement: 50,
       damage: 33,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -64,7 +64,7 @@ let GunsArray = [
       rankRequirement: 60,
       damage: 31,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -74,7 +74,7 @@ let GunsArray = [
       rankRequirement: 80,
       damage: 34,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Burst"],
       magazineSize: 30
@@ -84,7 +84,7 @@ let GunsArray = [
       rankRequirement: 100,
       damage: 29,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -94,7 +94,7 @@ let GunsArray = [
       rankRequirement: 120,
       damage: 34,
       range: 65,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -104,7 +104,7 @@ let GunsArray = [
       rankRequirement: 150,
       damage: 32,
       range: 80,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -114,7 +114,7 @@ let GunsArray = [
       rankRequirement: 180,
       damage: 34,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Burst"],
       magazineSize: 30
@@ -134,7 +134,7 @@ let GunsArray = [
       rankRequirement: 220,
       damage: 40,
       range: 60,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -144,7 +144,7 @@ let GunsArray = [
       rankRequirement: 240,
       damage: 32,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -154,7 +154,7 @@ let GunsArray = [
       rankRequirement: 260,
       damage: 34,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Semi-Auto"],
       magazineSize: 20
@@ -164,7 +164,7 @@ let GunsArray = [
       rankRequirement: 280,
       damage: 29,
       range: 60,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -174,7 +174,7 @@ let GunsArray = [
       rankRequirement: 300,
       damage: 34,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -184,7 +184,7 @@ let GunsArray = [
       rankRequirement: 320,
       damage: 32,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Burst", "Auto"],
       magazineSize: 30
@@ -194,7 +194,7 @@ let GunsArray = [
       rankRequirement: 340,
       damage: 36,
       range: 65,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -204,7 +204,7 @@ let GunsArray = [
       rankRequirement: 360,
       damage: 32,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -214,7 +214,7 @@ let GunsArray = [
       rankRequirement: 380,
       damage: 32,
       range: 75,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto", "Burst"],
       magazineSize: 30
@@ -224,7 +224,7 @@ let GunsArray = [
       rankRequirement: 400,
       damage: 32,
       range: 70,
-      weaponType: "Carbine",
+           weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -234,7 +234,7 @@ let GunsArray = [
       rankRequirement: 420,
       damage: 33,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -244,7 +244,7 @@ let GunsArray = [
       rankRequirement: 440,
       damage: 28,
       range: 70,
-      weaponType: "Carbine",
+           weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -254,7 +254,7 @@ let GunsArray = [
       rankRequirement: 460,
       damage: 32,
       range: 60,
-      weaponType: "Carbine",
+           weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -274,7 +274,7 @@ let GunsArray = [
       rankRequirement: 500,
       damage: 32,
       range: 60,
-      weaponType: "Carbine",
+           weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -284,7 +284,7 @@ let GunsArray = [
       rankRequirement: 520,
       damage: 32,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -294,7 +294,7 @@ let GunsArray = [
       rankRequirement: 540,
       damage: 34,
       range: 70,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Burst"],
       magazineSize: 30
@@ -304,7 +304,7 @@ let GunsArray = [
       rankRequirement: 560,
       damage: 32,
       range: 75,
-      weaponType: "Carbine",
+           weaponType: "Primary",
       weaponClass: "Carbine",
       firingModes: ["Auto"],
       magazineSize: 30
@@ -314,7 +314,7 @@ let GunsArray = [
       rankRequirement: 580,
       damage: 29,
       range: 80,
-      weaponType: "Assault Rifle",
+      weaponType: "Primary",
       weaponClass: "Assault Rifle",
       firingModes: ["Burst"],
       magazineSize: 30
@@ -324,7 +324,7 @@ let GunsArray = [
       rankRequirement: 600,
       damage: 33,
       range: 60,
-      weaponType: "Carbine",
+           weaponType: "Primary",
       weaponClass: "Carbine",
       firingModes: ["Auto"],
       magazineSize: 20

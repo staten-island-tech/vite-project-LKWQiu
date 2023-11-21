@@ -42,7 +42,7 @@ DomSelectors.PDWButton.addEventListener("click", () =>{
 DomSelectors.LMGButton.addEventListener("click", () =>{
     console.log("the function broken")
     const LMGs = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("LMG")
     );
     console.log(LMGs)
     DomSelectors.Content.textContent= ""
@@ -55,7 +55,7 @@ DomSelectors.LMGButton.addEventListener("click", () =>{
 DomSelectors.SRButton.addEventListener("click", () =>{
     console.log("the function broken")
     const SRs = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("Sniper Rifle")
     );
     console.log(SRs)
     DomSelectors.Content.textContent= ""
@@ -68,7 +68,7 @@ DomSelectors.SRButton.addEventListener("click", () =>{
 DomSelectors.CButton.addEventListener("click", () =>{
     console.log("the function broken")
     const Cs = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("Carbine")
     );
     console.log(Cs)
     DomSelectors.Content.textContent= ""
@@ -81,7 +81,7 @@ DomSelectors.CButton.addEventListener("click", () =>{
 DomSelectors.DMRButton.addEventListener("click", () =>{
     console.log("the function broken")
     const DMRs = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("DMR")
     );
     console.log(DMRs)
     DomSelectors.Content.textContent= ""
@@ -94,7 +94,7 @@ DomSelectors.DMRButton.addEventListener("click", () =>{
 DomSelectors.BRButton.addEventListener("click", () =>{
     console.log("the function broken")
     const BRs = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("Battle Rifle")
     );
     console.log(BRs)
     DomSelectors.Content.textContent= ""
@@ -107,7 +107,7 @@ DomSelectors.BRButton.addEventListener("click", () =>{
 DomSelectors.SButton.addEventListener("click", () =>{
     console.log("the function broken")
     const Ss = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes("Assault Rifle")
+    rifle.weaponClass.includes("Shotgun")
     );
     console.log(Ss)
     DomSelectors.Content.textContent= ""
