@@ -1,3 +1,4 @@
+
 let GunsArray = [
   {
     name: "AK12",
@@ -7,7 +8,8 @@ let GunsArray = [
     weaponType: "Primary",
     weaponClass: "Assault Rifle",
     firingModes: ["Auto", "3x Burst", "Semi"],
-    magazineSize: 30
+    magazineSize: 30 ,
+    image: "AK12color.PNG"
   },
   {
     name: "AN-94",
@@ -17,7 +19,8 @@ let GunsArray = [
     weaponType: "Primary",
     weaponClass: "Assault Rifle",
     firingModes: ["Auto", "2x Burst", "Semi"],
-    magazineSize: 30
+    magazineSize: 30,
+    image: "AN94new.PNG"
   },
   {
     name: "AS VAL",
@@ -27,7 +30,8 @@ let GunsArray = [
     weaponType: "Primary",
     weaponClass: "Assault Rifle",
     firingModes: ["Auto", "Semi"],
-    magazineSize: 20
+    magazineSize: 20,
+    image: "ASVALnew.PNG"
   },
   {
     name: "SCAR-L",

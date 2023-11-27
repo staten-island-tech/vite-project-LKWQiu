@@ -10,6 +10,7 @@ console.log(printAssaultRifles)
 function arSetdisplay(rifle){
     const arSet =` 
     <div class="ARset">
+      <img src="imgs/${rifle.image}.webp" alt="Broken">
       <h3>${rifle.name}</h3>
       <p>Rank Requirement: ${rifle.rankRequirement}</p>
       <p>Damage: ${rifle.damage}</p>
