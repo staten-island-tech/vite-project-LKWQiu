@@ -24,7 +24,7 @@ function arSetdisplay(rifle){
   document.getElementById("Content").insertAdjacentHTML("beforeend", arSet);
   };
 
-  GunsArray.forEach((rifle) => arSetdisplay(rifle));
+
 
   export{arSetdisplay};
 

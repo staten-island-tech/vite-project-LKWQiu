@@ -1,6 +1,36 @@
-body, html {
-  background-color: rgb(0, 0, 0);
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
 }
+
+:root{
+--black: #000; 
+--grey: #393d44;
+--white: rgb(255, 255, 255); 
+--grey2: #444547;
+--lightgrey: rgb(201, 198, 198);
+--darkgrey: rgb(122, 120, 120);
+--primary: var(--white);
+--secondary: var(--black);
+--box: var(--lightgrey)
+
+}
+.light{
+--primary: var(--white)
+--secondary: var(--black)
+--box: var(--lightgrey)
+}
+.dark{
+--primary: var(--black)
+--secondary: var(--white)
+--box: var(--grey2)
+
+}
+
 #Content{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -8,11 +38,12 @@ body, html {
   flex-direction: row;
   align-items: center;
   position: relative;
+  background-color: var(--primary);
 }
 .ARset {
   border-width: 15px;
   border-style: solid;
-  border-color:#393d44;
+  border-color: var(--darkgrey);
   border-radius: 10px;
   width: 20%;
   height: 100%;
@@ -22,6 +53,6 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #444547;
-  color: rgb(255, 255, 255);
+  background-color: var(--box);
+  color: var(--secondary);
 }
