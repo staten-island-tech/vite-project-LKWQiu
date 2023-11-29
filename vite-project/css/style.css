@@ -1,12 +1,3 @@
-html,
-body,
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 100%;
-}
-
 :root{
 --black: #000; 
 --grey: #393d44;
@@ -16,21 +7,30 @@ body,
 --darkgrey: rgb(122, 120, 120);
 --primary: var(--white);
 --secondary: var(--black);
---box: var(--lightgrey)
+--box: var(--lightgrey);
 
 }
 .light{
---primary: var(--white)
---secondary: var(--black)
---box: var(--lightgrey)
+--primary: var(--white);
+--secondary: var(--black);
+--box: var(--lightgrey);
 }
 .dark{
---primary: var(--black)
---secondary: var(--white)
---box: var(--grey2)
-
+--primary: var(--black);
+--secondary: var(--white);
+--box: var(--grey2);
 }
-
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 #Content{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -39,20 +39,47 @@ body,
   align-items: center;
   position: relative;
   background-color: var(--primary);
+  overflow: hidden;
+  padding: 100px;
 }
 .ARset {
+  z-index: 0;
   border-width: 15px;
   border-style: solid;
   border-color: var(--darkgrey);
   border-radius: 10px;
-  width: 20%;
+  width: 22%;
   height: 100%;
-  margin: 30px;
-  padding-top:10px;
+  padding: 55px;
+  margin: 50px;
+  padding-top:20px;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--box);
   color: var(--secondary);
+}
+.AllBtns{
+z-index: 1;
+position: fixed;
+border-color: var(--primary);
+align-self: center;
+padding-top: 20px;
+padding-left: 900px;
+}
+.Themebtn{
+z-index: 1;
+position: fixed;
+border-color: var(--primary);
+padding-left: 20px;
+padding-top: 20px;
+}
+button{
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 2vh;
+  background-color: var(--primary);
+  color: var(--secondary);
+
 }

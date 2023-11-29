@@ -9,6 +9,7 @@ let GunsArray = [
     weaponClass: "Assault Rifle",
     firingModes: ["Auto", "3x Burst", "Semi"],
     magazineSize: 30 ,
+    credits: 0,
     image: "AK12color.PNG"
   },
   {

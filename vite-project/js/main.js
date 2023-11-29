@@ -19,12 +19,13 @@ function arSetdisplay(rifle){
       <p>Weapon Class: ${rifle.weaponClass}</p>
       <p>Firing Modes: ${rifle.firingModes.join(", ")}</p>
       <p>Magazine Size: ${rifle.magazineSize}</p>
+      <p>Credit Cost: ${rifle.credits}</p>
     </div>
   `;
   document.getElementById("Content").insertAdjacentHTML("beforeend", arSet);
   };
 
-
+  GunsArray.forEach((rifle) => arSetdisplay(rifle));
 
   export{arSetdisplay};
 
