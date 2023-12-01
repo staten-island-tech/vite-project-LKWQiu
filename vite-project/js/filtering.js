@@ -11,24 +11,17 @@ const DomSelectors ={
     DMRButton: document.getElementById("DMRsButton"),
     BRButton: document.getElementById("BattleRiflesButton"),
     SButton: document.getElementById("ShotgunsButton"),
-    Theme: document.getElementById("Theme")
+    Theme: document.getElementById("Theme"),
+    btns: document.querySelectorAll("button"),
 }
 
-let btns = document.querySelectorAll("button")
-btns.forEach((button) => button.addEventListener("click", 
-function(){
-    let filter = button.textContent
-    console.log("the function broken")
-    const card = GunsArray.filter((rifle) =>
-    rifle.weaponClass.includes(filter)
-    );
-    console.log(filter)
-    const print1 = card.map((rifle) => arSetdisplay(rifle));
-    DomSelectors.Content.insertAdjacentHTML(
-        "beforeend",
-        print1.join("")
-    );
-}));
+DomSelectors.btns.addEventListener("click", () => {
+    let filter = DomSelectors.btns.textContent
+    console.log("the function doesnt wrok the button does")
+    const card = GunsArray.filter((rifle) =>  rifle.weaponClass.includes(filter)).map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML("beforeend", card.join(""))
+   });
+
 
 /* DomSelectors.ARButton.addEventListener("click", () =>{
     console.log("the function broken")
