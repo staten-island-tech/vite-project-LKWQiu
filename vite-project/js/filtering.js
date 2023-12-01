@@ -14,7 +14,23 @@ const DomSelectors ={
     Theme: document.getElementById("Theme")
 }
 
-DomSelectors.ARButton.addEventListener("click", () =>{
+let btns = document.querySelectorAll("button")
+btns.forEach((button) => button.addEventListener("click", 
+function(){
+    let filter = button.textContent
+    console.log("the function broken")
+    const card = GunsArray.filter((rifle) =>
+    rifle.weaponClass.includes(filter)
+    );
+    console.log(filter)
+    const print1 = card.map((rifle) => arSetdisplay(rifle));
+    DomSelectors.Content.insertAdjacentHTML(
+        "beforeend",
+        print1.join("")
+    );
+}));
+
+/* DomSelectors.ARButton.addEventListener("click", () =>{
     console.log("the function broken")
     const ARs = GunsArray.filter((rifle) =>
     rifle.weaponClass.includes("Assault Rifle")
@@ -117,7 +133,8 @@ DomSelectors.SButton.addEventListener("click", () =>{
         "beforeend",
         Smap.join("")
     );
-});
+}); */
+
 DomSelectors.Theme.addEventListener("click", function () {
     if (document.body.classList.contains("light")) {
       document.body.classList.add("dark");
