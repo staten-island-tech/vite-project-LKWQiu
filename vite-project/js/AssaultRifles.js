@@ -21,6 +21,7 @@ let GunsArray = [
     weaponClass: "Assault Rifle",
     firingModes: ["Auto", "2x Burst", "Semi"],
     magazineSize: 30,
+    credits: "2,100", 
     image: "AN94new.PNG"
   },
   {
