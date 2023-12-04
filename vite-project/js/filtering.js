@@ -12,11 +12,11 @@ const DomSelectors ={
     BRButton: document.getElementById("BattleRiflesButton"),
     SButton: document.getElementById("ShotgunsButton"),
     Theme: document.getElementById("Theme"),
-    btns: document.querySelectorAll("button"),
+    buttons: document.querySelectorAll("button"),
 }
 
-DomSelectors.btns.addEventListener("click", () => {
-    let filter = DomSelectors.btns.textContent
+DomSelectors.buttons.addEventListener("click", () => {
+    let filter = DomSelectors.buttons.textContent
     console.log("the function doesnt wrok the button does")
     const card = GunsArray.filter((rifle) =>  rifle.weaponClass.includes(filter)).map((rifle) => arSetdisplay(rifle));
     DomSelectors.Content.insertAdjacentHTML("beforeend", card.join(""))
