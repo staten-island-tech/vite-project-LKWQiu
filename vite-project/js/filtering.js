@@ -12,17 +12,18 @@ const DomSelectors ={
     BRButton: document.getElementById("BattleRiflesButton"),
     SButton: document.getElementById("ShotgunsButton"),
     Theme: document.getElementById("Theme"),
-    buttons: document.querySelectorAll("button"),
+    buttons: document.querySelectorAll(".AllBtns"),
 }
-
-DomSelectors.buttons.addEventListener("click", () => {
-    let filter = DomSelectors.buttons.textContent
-    console.log("the function doesnt wrok the button does")
-    const card = GunsArray.filter((rifle) =>  rifle.weaponClass.includes(filter)).map((rifle) => arSetdisplay(rifle));
-    DomSelectors.Content.insertAdjacentHTML("beforeend", card.join(""))
+DomSelectors.buttons.forEach((button) => {
+    button.addEventListener("click", function(event) {
+    const filter = event.target.textContent
+    console.log(filter);
+    const card = GunsArray.filter((rifle) =>  rifle.weaponClass.includes(filter));
+    DomSelectors.Content.textContent = "";
+    card.forEach((rifle) => arSetdisplay(rifle));
    });
 
-
+});
 /* DomSelectors.ARButton.addEventListener("click", () =>{
     console.log("the function broken")
     const ARs = GunsArray.filter((rifle) =>
